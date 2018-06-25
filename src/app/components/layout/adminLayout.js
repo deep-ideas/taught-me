@@ -4,6 +4,7 @@ export default class adminLayout extends Component {
   render() {
     return (
       <main className="container">
+        <Header />
         {this.props.children}
       </main>
     )
