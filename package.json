@@ -25,6 +25,7 @@
     "extends": "pawjs/src/babel/.babelrc"
   },
   "dependencies": {
+    "bulma": "^0.7.1",
     "react-router-dom": "^4.3.1"
   },
   "devDependencies": {

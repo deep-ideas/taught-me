@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import SideBar from "../side-bar/sideBar";
-
+import Header from "../header/header"
 export default class adminLayout extends Component {
   render() {
     return (
