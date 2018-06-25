@@ -6,9 +6,10 @@ export default class SideBar extends Component {
         return (
             <div className={styles.sidenav}>
                 <a href="/admin/dashboard">Dashboard</a>
-                <a href="#services">Services</a>
-                <a href="#clients">Clients</a>
-                <a href="#contact">Contact</a>
+                <a href="/admin/users">Users</a>
+                <a href="#clients">Site</a>
+                <a href="#contact">Sales</a>
+                <a href="#contact">Emails</a>
             </div>
         )
     }
