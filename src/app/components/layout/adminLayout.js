@@ -5,7 +5,6 @@ export default class adminLayout extends Component {
   render() {
     return (
       <main className="container">
-        <SideBar />
         {this.props.children}
       </main>
     )

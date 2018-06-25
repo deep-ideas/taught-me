@@ -5,7 +5,7 @@ export default class SideBar extends Component {
     render() {
         return (
             <div className={styles.sidenav}>
-                <a href="#about">About</a>
+                <a href="/admin/dashboard">Dashboard</a>
                 <a href="#services">Services</a>
                 <a href="#clients">Clients</a>
                 <a href="#contact">Contact</a>
