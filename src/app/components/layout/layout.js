@@ -1,9 +1,11 @@
 import React, {Component} from "react";
+import Header from "../header/header";
 
 export default class Layout extends Component {
   render() {
     return (
-      <main className="container">
+      <main>
+      <Header />
         {this.props.children}
       </main>
     );

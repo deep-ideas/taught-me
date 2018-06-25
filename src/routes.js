@@ -3,10 +3,12 @@ import {configureRoutes} from "pawjs/src/utils/bundler";
 import * as Home from "./pages/home"
 import * as AdminDashboard from "./pages/admin-dashboard"
 import * as AdminUsers from "./pages/admin-users"
+import * as SignIn from "./pages/signIn"
 
 
 export default configureRoutes([
     Home,
     AdminDashboard,
-    AdminUsers
+    AdminUsers,
+    SignIn
 ]);
