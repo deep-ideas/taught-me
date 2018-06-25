@@ -10,6 +10,7 @@ export default class SideBar extends Component {
                 <a href="#clients">Site</a>
                 <a href="#contact">Sales</a>
                 <a href="#contact">Emails</a>
+                <a href="#contact">Courses</a>
             </div>
         )
     }
