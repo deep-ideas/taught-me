@@ -2,6 +2,8 @@ import {trackPageView} from "pawjs/src/utils/analytics";
 
 import * as appReducers from "./app/reducers";
 import "bulma/css/bulma.css";
+import "bootstrap/dist/css/bootstrap.css"
+import "font-awesome/css/font-awesome.min.css";
 
 export const reduxInitialState = {
   counter: {

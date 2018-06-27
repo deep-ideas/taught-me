@@ -1,10 +1,12 @@
 import React, { Component } from "react";
-import Header from "../header/header"
+
+import SideBar from "../side-bar/sideBar";
+
 export default class adminLayout extends Component {
   render() {
     return (
-      <main className="container">
-        <Header />
+      <main>
+      <SideBar />
         {this.props.children}
       </main>
     )
