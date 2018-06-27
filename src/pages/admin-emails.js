@@ -1,9 +1,9 @@
-import component from "../app/components/admin-dashboard/dashboard";
+import component from "../app/components/admin-emails/emails";
 import layout from "../app/components/admin-layout/layout";
 
 const routes = [
     {
-        path : "/admin/dashboard",
+        path : "/admin/emails",
         exact: true,
         component,
         layout

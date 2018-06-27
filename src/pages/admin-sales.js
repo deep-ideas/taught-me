@@ -1,5 +1,5 @@
-import component from "../app/components/admin-sales/adminSales";
-import layout from "../app/components/admin-layout/adminLayout";
+import component from "../app/components/admin-sales/sales";
+import layout from "../app/components/admin-layout/layout";
 
 const routes = [
     {

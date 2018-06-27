@@ -19,31 +19,31 @@ export default class SideBar extends Component {
                     <ul>
                         <div>
                             <li>
-                                <a>
+                                <a href="/admin/dashboard" >
                                     <i className="fa fa-tachometer"></i>
                                     <span>Dashboard</span>
                                 </a>
                             </li>
                             <li>
-                                <a>
+                                <a href="/admin/users">
                                     <i className="fa fa-user"></i>
                                     <span className="">Users</span>
                                 </a>
                             </li>
                             <li>
-                                <a>
+                                <a href="/admin/site">
                                     <i className="fa fa-sitemap"></i>
                                     <span>Site</span>
                                 </a>
                             </li>
                             <li>
-                                <a>
+                                <a href="/admin/sales">
                                     <i className="fa fa-money"></i>
                                     <span>Sales</span>
                                 </a>
                             </li>
                             <li>
-                                <a>
+                                <a href="/admin/emails">
                                     <i className="fa fa-envelope"></i>
                                     <span>Emails</span>
                                 </a>

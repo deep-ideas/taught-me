@@ -5,6 +5,10 @@ import * as AdminDashboard from "./pages/admin-dashboard"
 import * as AdminUsers from "./pages/admin-users"
 import * as SignIn from "./pages/signIn"
 import * as AdminSales from "./pages/admin-sales"
+import * as AdminSite from "./pages/admin-site"
+import * as AdminEmails from "./pages/admin-emails"
+
+
 
 
 export default configureRoutes([
@@ -12,5 +16,7 @@ export default configureRoutes([
     AdminDashboard,
     AdminUsers,
     SignIn,
-    AdminSales
+    AdminSales,
+    AdminSite,
+    AdminEmails
 ]);

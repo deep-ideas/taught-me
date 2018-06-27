@@ -50,7 +50,13 @@
     line-height: 19px;
 }
 
-.navs {
+.navs a {
+    color: rgba(211, 211, 211, .65);
+}
+
+.navs a:hover {
+    color: #eeee;
+    text-decoration: none;
 }
 
 .navs ul {
