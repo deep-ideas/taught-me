@@ -92,37 +92,40 @@ export default class SideBar extends Component {
 
                         {/* ================================================================================= */}
 
-                        
+
                     </ul >
                 </div >
                 <div className={styles.footer}>
 
-                            <hr />
+                    <hr />
 
-                            <li>
-                                <a>
-                                    <i className="fa fa-rocket"></i>
-                                    <span>Plan</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a>
-                                    <i className="fa fa-question-circle"></i>
-                                    <span>Hep</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a>
-                                    <i className="fa fa-cog"></i>
-                                    <span>Settings</span>
-                                </a>
-                            </li>
-                        </div>
+                    <li>
+                        <a>
+                            <i className="fa fa-rocket"></i>
+                            <span>Plan</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <i className="fa fa-question-circle"></i>
+                            <span>Hep</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <i className="fa fa-cog"></i>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                </div>
                 <div className={styles.avatar}>
                     <div className={styles.dropdown}>
                         <a>
                             <i className="fa fa-user-circle-o"></i>
                             <span>Teuku Fadhlul</span>
+                        </a>
+                        <a className={styles.upBtn}>
+                            <p>^</p>
                         </a>
                     </div>
                 </div>

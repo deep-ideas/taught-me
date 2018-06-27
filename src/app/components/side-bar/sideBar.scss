@@ -66,7 +66,6 @@
 
 .navs li {
     cursor: pointer;
-    font-size: 13;
     font-weight: 500;
     color: rgba(211, 211, 211, .65);
     padding: 0;
@@ -98,10 +97,9 @@
     text-overflow: ellipsis;
     display: block;
     opacity: 1;
-    font-weight: bold;
     letter-spacing: 0.2px;
     transition: opacity 150ms ease-in-out;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .navs hr {
@@ -140,7 +138,7 @@
     border: 1px solid #abb4b3;
     width: 15px;
     height: 15px;
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
     line-height: 11.5px;
     border-radius: 50%;
@@ -270,7 +268,38 @@
 }
 
 .dropdown {
+    padding: 10px 0;
     width: 100%;
     margin: 0;
     height: 55px;
+    display: inline-flex;
 }   
+
+.dropdown  span {
+    height: 100%;
+    margin: 0 40px;
+    position: relative;
+    bottom: 2px;
+    width: 70%;
+}
+
+.dropdown  i {
+    font-size: 30px;
+    height: 100%;
+    bottom: 0;
+}
+
+.upBtn {
+    position: relative;
+    left: -5px;
+}
+
+.upBtn p {
+    float: right;
+    color: #b2bbba;
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 15px;
+}
